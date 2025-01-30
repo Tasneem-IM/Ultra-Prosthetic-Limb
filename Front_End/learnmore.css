@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  .main{
+    margin: 20px;;
+  }
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004080;
+    padding: 1rem 2rem;
+  }
+  .nav2{
+    background-color: #ffffff;
+    padding: .1rem 2rem;
+  }
+  .nav3{
+    background-color: #004080;
+    padding: .1rem 2rem;
+  }
+  .navbar .logo {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: #003366;
+  }
+  
+  .nav-links a.active {
+    background-color: #e69500;
+    color: #fff;
+  }
+  
+  /* Data Page */
+  .data-page {
+    padding: 2rem;
+  }
+  
+  .page-title {
+    color: #004080;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Data Section */
+  .data-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  /* Data Table Section */
+  .data-table-section {
+    flex: 1;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .data-table-section h2 {
+    font-size: 1.8rem;
+    color: #004080;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Data Table */
+  .data-table {
+    width: 100%;
+    border-collapse: separate;  /* Ensure table cells are separate */
+    border-spacing: 0;  /* Remove spacing between cells */
+    border-radius: 15px;  /* Apply rounded corners to the table */
+    overflow: hidden;  /* Prevent content from spilling out */
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #004080;
+    font-size: 1rem;
+  }
+  
+  .data-table th {
+    background-color: #004080;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .data-table tr:hover {
+    background-color: #d7d5d5;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #004080;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  

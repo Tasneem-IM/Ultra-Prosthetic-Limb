@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logging Out | Smart Prosthetic System</title>
+  <script>
+    // عندما يتم تحميل الصفحة، سيتم إزالة حالة تسجيل الدخول
+    window.onload = function() {
+      // إزالة حالة تسجيل الدخول من localStorage
+      localStorage.removeItem("isLoggedIn");
+
+      // توجيه المستخدم إلى صفحة home.html (أو صفحة أخرى حسب الحاجة)
+      window.location.href = "pro.html";  // يمكنك تغيير هذا إلى صفحة تسجيل الدخول إذا أردت
+    };
+  </script>
+</head>
+<body>
+  <p>Logging out...</p>
+</body>
+</html>

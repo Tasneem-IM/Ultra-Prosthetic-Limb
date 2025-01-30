@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004080;
+    padding: 1rem 2rem;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #003366;
+}
+
+/* Active Link Style */
+.nav-links a.active {
+    background-color: #e69500;    color: #fff;
+    border-radius: 5px;
+}
+
+/* About Page */
+.about-page {
+    padding: 2rem;
+}
+
+.about-page h1 {
+    font-size: 2.5rem;
+    color: #004080;
+}
+
+.about-page p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+/* FAQ Section */
+.faq-section {
+    margin-top: 2rem;
+}
+
+.faq {
+    margin-bottom: 1.5rem;
+}
+
+.faq-question {
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0.5rem 0;
+    transition: color 0.3s ease;
+}
+
+.faq-question:hover {
+    color: #003366;
+}
+
+.faq-answer {
+    display: none;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #004080;
+    color: #fff;
+    margin-top: 3rem;
+}
+.nav2{
+    background-color: #ffffff;
+    padding: .1rem 2rem;
+  }
+  .nav3{
+    background-color: #004080;
+    padding: .1rem 2rem;
+  }
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}

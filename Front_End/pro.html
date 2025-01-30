@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome | Smart Prosthetic System</title>
+  <link rel="stylesheet" href="pro.css">
+  <script src="pro.js" defer></script>
+  <script>
+    window.onload = function() {
+      // التحقق من حالة تسجيل الدخول
+      if (localStorage.getItem("isLoggedIn") !== "true") {
+        // إخفاء روابط المستخدمين المسجلين
+        document.querySelectorAll(".logged-in").forEach(function(link) {
+          link.style.display = "none";
+        });
+
+        // إظهار رابط تسجيل الدخول
+        document.querySelectorAll(".logged-out").forEach(function(link) {
+          link.style.display = "inline-block";
+        });
+      } else {
+        // إخفاء رابط تسجيل الدخول
+        document.querySelectorAll(".logged-out").forEach(function(link) {
+          link.style.display = "none";
+        });
+
+        // إظهار روابط الصفحات للمستخدمين المسجلين
+        document.querySelectorAll(".logged-in").forEach(function(link) {
+          link.style.display = "inline-block";
+        });
+      }
+    };
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Ultra Prosthetics</div>
+      <ul class="nav-links">
+        <li><a href="pro.html" class="active logged-in">Home</a></li>
+        <li><a href="Data.html" class="logged-in">Data</a></li>
+        <li><a href="status.html" class="logged-in">Status</a></li>
+        <li><a href="recommendations.html" class="logged-in">Recommendations</a></li>
+        <li><a href="about.html" class="logged-in">About Us</a></li>
+        <li><a href="contact.html" class="logged-in">Contact</a></li>
+        <li><a href="login.html" class="btn-login logged-out">Login/Sign Up</a></li>
+        <li><a href="logout.html" class="logged-in">Logout</a></li>
+      </ul>
+    </nav>
+    <nav class="nav2">
+    </nav>
+    </nav>
+    <nav class="nav3">
+    </nav>
+  </header>
+
+  <main class="hero-section">
+    <div class="hero-content">
+      <h1>Welcome to the Ultra Smart Prosthetic System</h1>
+      <p>Enhancing lives with advanced technology. Experience the future of prosthetics.</p>
+      <div class="hero-buttons">
+        <a href="http://127.0.0.1:5500/login.html" class="btn-primary">Get Started</a>
+        <a href="learnmore.html" class="btn-secondary">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="pro.png" alt="Smart Prosthetics">
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ultra Prosthetics. All rights reserved.</p>
+  </footer>
+</body>
+</html>

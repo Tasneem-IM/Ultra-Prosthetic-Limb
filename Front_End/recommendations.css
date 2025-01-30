@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004080;
+    padding: 1rem 2rem;
+  }
+  .nav2{
+    background-color: #ffffff;
+    padding: .1rem 2rem;
+  }
+  .nav3{
+    background-color: #004080;
+    padding: .1rem 2rem;
+  }
+  .navbar .logo {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: #003366;
+  }
+  
+  .nav-links a.active {
+    background-color: #003366;
+  }
+  
+  .login-btn {
+    background-color: #ffa500;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .login-btn:hover {
+    background-color: #e69500;
+  }
+  
+  /* Recommendations Page */
+  .recommendations-page {
+    padding: 2rem;
+  }
+  
+  /* تعديل العنوان ليكون أصغر وباليسار */
+  .page-title {
+    font-size: 1.8rem;
+    color: #004080;
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .page-title p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Recommendations List */
+  .recommendations-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .recommendation {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recommendation h2 {
+    font-size: 1.8rem;
+    color: #004080;
+    margin-bottom: 1rem;
+  }
+  
+  .recommendation p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #004080;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  .nav-links a.active {
+    background-color: #e69500; /* اللون المميز */
+    color: #fff; /* لون النص عند تمييز الرابط */
+    border-radius: 5px;
+}

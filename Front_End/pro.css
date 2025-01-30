@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004080;
+  padding: .5rem 2rem;
+}
+.nav2{
+  background-color: #ffffff;
+  padding: .1rem 2rem;
+}
+.nav3{
+  background-color: #004080;
+  padding: .1rem 2rem;
+}
+.navbar .logo {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #003366;
+}
+
+.login-btn {
+  background-color: #ffa500;
+  color: #fff;
+  font-weight: bold;
+}
+
+.login-btn:hover {
+  background-color: #e69500;
+}
+  /* Hero Section */
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    color: #004080;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  .hero-buttons {
+    margin-top: 1rem;
+  }
+  
+  .btn-primary, .btn-secondary {
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-right: 1rem;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #004080;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #012950;
+  }
+  
+  .btn-secondary {
+    background-color: #ffa500;
+    color: #fff;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #bc7a00;
+  }
+  
+  /* Hero Image */
+  .hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-right: 0%;
+  }
+    
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #004080;
+    color: #fff;
+    margin-top: 13rem;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  /* تغيير لون الرابط النشط */
+.nav-links a.active {
+  background-color: #003366;  /* اللون الذي تود أن يظهر عندما تكون الصفحة نشطة */
+  color: #fff;
+}
+.nav-links a.active {
+    background-color: #e69500;
+        color: #fff; /* لون النص عند تمييز الرابط */
+    border-radius: 5px;
+}
